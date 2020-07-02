@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
+body {
+    background-image: url(assets/img/background-home-min.png);	
+    background-position: center left;	
+    background-size: 100% 100%;	
+    background-repeat: no-repeat;
+    height:100vh
+}
+
+.card {
+    border-radius: 0 !important;
+    border: 0
+}
+
+.card-header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #dbae46;
+    color:#fff;
+    border-radius: 0 !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card-body {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.btn-submit {
+    background-color: #332127;
+    color:#fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.btn-submit:hover {
+    background-color: #dbae46;
+    color:#fff
+}
+
+.erro {
+    background-color: #ff4c4c;
+}
+
+.erro h5 {
+    color: #fff;
+}
+
+@media (max-width: 500px){
+    body {
+        background-image: url(assets/img/background-home-min.png);	
+        background-position: center left;	
+        background-size: 300% 150%;	
+        background-repeat: no-repeat;
+    }
+
+    .img-logo{
+        width:90% !important;
+        padding-top: 50px
+    }
+
+    .card-header {
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-weight: 400;
+    }
+
+    .card-body {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+    }
+
+    .w-75 {
+        width: 90% !important
+    }
+
+    .btn-submit {
+       font-size: 16px
+    }
+}
+
+@media (max-width: 800px){
+    body {
+        background-image: url(assets/img/background-home-min.png);	
+        background-position: center left;	
+        background-size: 180% 100%;	
+        background-repeat: no-repeat;
+        height:100vh
+    }
+
+    .img-logo{
+        width:90% !important;
+        padding-top: 30px
+    }
+
+    .w-75 {
+        width: 100% !important
+    }
+
+    .card-header {
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-weight: 400;
+    }
+
+    .card-body {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (min-width: 801px){
+    .w-75 {
+        width: 65% !important
+    }
+
+    .img-logo{
+        width:60% !important;
+        padding-top: 50px
+    }
+
+    .card-header {
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        padding-left:50px;
+        padding-right: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-weight: 400;
+    }
+}

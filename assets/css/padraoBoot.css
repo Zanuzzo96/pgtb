@@ -1,0 +1,25 @@
+.bg-primary {
+    background: #dbae46 !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -o-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.btn-primary {
+    background-color: #332127;
+    border-color: #332127;
+    
+}
+
+.btn-primary:hover{
+    background-color: #332127 !important;
+}
+
+.bg-light {
+    background: #ced1d3 !important;
+}
+
+
+
+

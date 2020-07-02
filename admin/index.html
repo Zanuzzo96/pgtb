@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="./../assets/css/padraoBoot.css">
+  <link rel="stylesheet" href="./../assets/css/admin/index.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark" style="">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6"><a class="navbar-brand w-50" href="#">
+            <img class="img-fluid d-block ml-5 w-75" src="C:/Users/Amanda/Desktop/Painel de gerenciamento de clientes Tulya/assets/img/estudio-tulya-berkelly-min.png" style="">
+          </a></div>
+        <div class="col-md-6">
+          <div class="row" id="saldo">
+            <div class="col-md-6">
+              <h3 class="text-white text-center">Saldo SMS</h3>
+              <h2 class="text-center text-white">1200 SMS</h2>
+            </div>
+            <div class="col-md-6">
+              <h3 class="text-left text-white" style="">SMS do dia</h3>
+              <h2 class="text-left text-white">120 SMS</h2>
+            </div>
+          </div>
+        </div>
+      </div> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar10">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar10">
+      </div>
+    </div>
+  </nav>
+  <div class="py-3 bg-primary">
+    <div class="container-fluid">
+      <div class="row" id="botoes-menu">
+        <div class="col-md-3 text-center">
+          <a class="btn btn-primary btn-lg" href="#" onclick="pesquisa()">
+            <i class="fa fa-search fa-fw"></i>Procurar usuário
+          </a>
+        </div>
+        <div class="col-md-3 text-center">
+          <a class="btn btn-primary btn-lg" href="#">
+            <i class="fa fa-user-plus fa-fw"></i>Adicionar usuário
+          </a>
+        </div>
+        <div class="col-md-3 text-center">
+          <a class="btn btn-primary btn-lg" href="#">
+            <i class="fa fa-list-alt fa-fw"></i>Histórico de SMS
+          </a>
+        </div>
+        <div class="col-md-3 text-center">
+          <a class="btn btn-primary btn-lg" href="#">
+            <i class="fa fa-sign-out fa-fw"></i>Sair
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-light" id="pesquisar-cliente" style="display: none;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 py-3">
+          <div class="row">
+            <div class="col-md-6 d-flex justify-content-center align-items-center flex-row">
+              <form class="form-inline w-100">
+                <div class="input-group w-100">
+                  <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Insira algo para pesquisa">
+                  <div class="input-group-append"><button class="btn btn-primary" type="button"><i class="fa fa-search"></i></button></div>
+                </div>
+              </form>
+            </div>
+            <div class="col-md-6 d-flex flex-row justify-content-end">
+              <div class="btn-group pr-3">
+                <button type="button" class="btn btn-primary">Mês de atendimento</button>
+                <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false"></button>
+                <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(128px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+              </div>
+              <div class="btn-group">
+                <button type="button" class="btn btn-primary">Ano de atendimento</button>
+                <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false"></button>
+                <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(128px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+              </div>
+
+        
+            </div>
+          </div>
+          <form class="form-inline d-flex justify-content-center align-items-center">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-3">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="table-responsive">
+            <table class="table table-striped table-hover">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">First</th>
+                  <th scope="col">Last</th>
+                  <th scope="col">Handle</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <script>
+    function pesquisa(){
+      if(document.getElementById("pesquisar-cliente").style.display == "none"){
+        document.getElementById("pesquisar-cliente").style.display = "block";
+      }else{
+        document.getElementById("pesquisar-cliente").style.display = "none";
+      }
+    }
+  </script>
+
+
+</body>
+
+</html>

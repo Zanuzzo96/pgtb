@@ -1,0 +1,33 @@
+#botoes-menu .btn-primary {
+    font-size:22px;
+    width: 90%
+}
+
+#botoes-menu .btn-primary:hover{
+    background-color: #dbae46 !important;
+    border: 2px solid #332127;
+    color: #332127;
+    font-weight: bold
+}
+
+#botoes-menu .fa {
+    padding-right: 40px;
+}
+
+#saldo h3 {
+    font-size:20px;
+    font-weight: bold;
+    padding-top:10px;
+    color:#dbae46 !important
+}
+
+#saldo h2 {
+    font-size:22px;
+    font-weight: bold;
+}
+
+thead {
+    background: #332127;
+    color: #fff;
+}
+
